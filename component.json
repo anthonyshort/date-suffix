@@ -1,0 +1,16 @@
+{
+  "name": "date-suffix",
+  "repo": "anthonyshort/date-suffix",
+  "description": "Given a date of the month, returns a suffixed version",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "component/assert": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
