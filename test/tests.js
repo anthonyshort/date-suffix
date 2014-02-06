@@ -4,10 +4,10 @@ var assert = require('assert');
 describe('suffix', function(){
 
   it('should get the correct suffixes', function(){
-    assert( suffix(1) === '1st' );
-    assert( suffix(2) === '2nd' );
-    assert( suffix(3) === '3rd' );
-    assert( suffix(4) === '4th' );
+    assert( suffix(new Date(2014, 1, 1)) === '1st' );
+    assert( suffix(new Date(2014, 1, 2)) === '2nd' );
+    assert( suffix(new Date(2014, 1, 3)) === '3rd' );
+    assert( suffix(new Date(2014, 1, 4)) === '4th' );
   });
 
 });

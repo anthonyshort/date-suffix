@@ -1,7 +1,7 @@
 
 # date-suffix
 
-  Given a date of the month, returns a suffixed version
+  Give it a date object, get the suffixed date back.
 
 ## Installation
 
@@ -13,9 +13,9 @@
 
 ```js
 var suffixed = require('date-suffix');
+var date = new Date();
 
-suffixed(20) // 20th
-suffixed(1) // 1st
+suffixed(date) // 20th
 ```
 
 ## License

@@ -1,4 +1,5 @@
-module.exports = function(num) {
+module.exports = function(date) {
+  var num = date.getDate();
   if ( num % 100 >= 10 && num % 100 <= 19 ) {
     return num + 'th';
   }

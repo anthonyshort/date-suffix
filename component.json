@@ -1,8 +1,8 @@
 {
   "name": "date-suffix",
   "repo": "anthonyshort/date-suffix",
-  "description": "Given a date of the month, returns a suffixed version",
-  "version": "0.0.1",
+  "description": "Given a Date object, get the suffixed date back",
+  "version": "0.0.2",
   "keywords": [],
   "dependencies": {},
   "development": {
